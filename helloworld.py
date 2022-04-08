@@ -8,7 +8,7 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 @app.route('/')   # URL '/' to be handled by main() route handler
 def main():
     """Say hello"""
-    return 'Hello, world!, this is superb!!!!'
+    return 'Hello, world!, this is superb!!!!,Openshifting'
 
 if __name__ == '__main__':  # Script executed directly?
     print("Hello World! Built with a Docker file. Awesome !!!!!!")
